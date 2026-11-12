@@ -16,7 +16,7 @@ export default defineConfig({
     outDir: 'dist',
     emptyOutDir: true,
     rollupOptions: {
-      input: 'website/index.html'
+      input: ['website/index.html', 'website/404.html']
     }
   }
 });
