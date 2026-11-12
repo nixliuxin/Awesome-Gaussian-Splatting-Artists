@@ -14,8 +14,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        'sans': ['PxGrotesk', 'system-ui', 'sans-serif'],
-        'mono': ['PxGroteskMono', 'ui-monospace', 'monospace'],
+        'sans': ['PP Model Sans', 'system-ui', 'sans-serif'],
+        'mono': ['PP Model Mono', 'ui-monospace', 'monospace'],
       },
       fontSize: {
         'xs': ['11px', { lineHeight: '1.5' }],

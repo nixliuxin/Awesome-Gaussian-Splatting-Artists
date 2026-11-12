@@ -46,3 +46,6 @@ website/analytics/
 
 # Developer workspace (private)
 _dev/
+
+# Licensed fonts (PP Model), copied in by scripts/private-fonts.mjs
+website/font/private/
