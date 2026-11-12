@@ -1,9 +1,11 @@
 import { defineConfig } from 'vite';
+import seo from './scripts/seo.mjs';
 
 export default defineConfig({
   root: 'website',
   base: '/',
   publicDir: false,
+  plugins: [seo()],
   server: {
     port: 5173,
     strictPort: false,
@@ -14,7 +16,7 @@ export default defineConfig({
     outDir: 'dist',
     emptyOutDir: true,
     rollupOptions: {
-      input: 'website/index.html'
+      input: ['website/index.html', 'website/404.html']
     }
   }
 });
