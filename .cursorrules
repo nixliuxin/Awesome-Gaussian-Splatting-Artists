@@ -15,3 +15,4 @@
 - The `website/data/creators.json` is the Single Source of Truth for creator data.
 - When adding a new creator, update both the README and the JSON file.
 - Prefer high-quality avatars; if missing, use the default placeholder.
+- Pending work and decisions live in GitHub issues: `gh issue list -R nixliuxin/Awesome-Gaussian-Splatting-Artists`. Docs record decisions, evidence and acceptance only; do not add pending items to them.
